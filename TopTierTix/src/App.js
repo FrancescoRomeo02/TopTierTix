@@ -1,6 +1,7 @@
 import ResponsiveAppBar from "./components/ResponsiveAppBar";
 import Scanner  from "./components/scanner";
 
+
 function App() {
   return (
     <>
