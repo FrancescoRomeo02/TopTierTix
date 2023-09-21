@@ -12,20 +12,14 @@ const Scanner = () => {
   let stopPreview = false;
 
   return (
-    // Create a grid container with specified maxWidth and maxHeight
-    <Grid
-      maxWidth="sm"
-      maxHeight="sm"
-      sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-      }}
-      margin={20}
-    >
+    <div>
+
       {/* Render the QrScanner component */}
       <QrScanner
+      
+        // Set the delay between scans
+        delay={1000}
+   
         // Handle the result of QR code decoding
         onDecode={(result) => {
           if (!stopPreview) {
@@ -49,7 +43,7 @@ const Scanner = () => {
           alert(error?.message) 
         }
       />
-    </Grid>
+    </div>
   );
 }
 

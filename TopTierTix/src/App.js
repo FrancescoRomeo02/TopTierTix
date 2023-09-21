@@ -14,7 +14,17 @@ function App() {
       </div>
 
       {/* Render the Scanner component for QR code scanning */}
-      <div className="Scanner">
+      <div className="Scanner"
+        style={{
+          justifyContent: "center",
+          alignItems: "center",
+          width: "50%",
+          marginTop: "5%",
+          marginLeft: "25%",
+          marginRight: "25%",
+  
+        }}
+      >
         <Scanner />
       </div>
 
@@ -24,7 +34,7 @@ function App() {
           justifyContent: "center",
           alignItems: "center",
           width: "50%",
-          margin: "auto",
+          marginTop: "100%",
         }}
       >
         {/* Success alert */}
