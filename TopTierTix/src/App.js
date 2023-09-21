@@ -14,29 +14,12 @@ function App() {
       </div>
 
       {/* Render the Scanner component for QR code scanning */}
-      <div className="Scanner"
-        style={{
-          justifyContent: "center",
-          alignItems: "center",
-          width: "50%",
-          marginTop: "5%",
-          marginLeft: "25%",
-          marginRight: "25%",
-  
-        }}
-      >
+      <div className="Scanner">
         <Scanner />
       </div>
 
       {/* Render success and error alerts */}
-      <div className="response"
-        style={{
-          justifyContent: "center",
-          alignItems: "center",
-          width: "50%",
-          marginTop: "100%",
-        }}
-      >
+      <div className="response">
         {/* Success alert */}
         <Alert severity="success" id="s" variant="filled"
           style={{
