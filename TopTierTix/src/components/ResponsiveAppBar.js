@@ -1,3 +1,5 @@
+// UI Material Design pre-built components: https://mui.com/components/app-bar/
+
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
